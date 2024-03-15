@@ -16,14 +16,14 @@ venv\Scripts\activate
 macOS/Linux:
 source venv/bin/activate
 
-C. Instalar Dependências:
+A. Instalar Dependências:
 
 Assegure-se de ter um requirements.txt no diretório do projeto e execute:
 
 pip install -r requirements.txt
 
 Construir e Executar com Docker
-A. Construir Imagem Docker:
+B. Construir Imagem Docker:
 
 No diretório do projeto, execute:
 docker build -t nome_da_sua_imagem .
